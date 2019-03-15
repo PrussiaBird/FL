@@ -281,121 +281,9 @@ JAP_glorious_nippon_steel_has_triumphed = {
 		value = 5
 	}
 }
-southern_expansion = {
-	enable = {
-		tag = JAP
-		has_completed_focus = JAP_strike_south_doctrine
-		OR = {
-			country_exists = HOL
-			country_exists = ENG	
-		}
-	}
-	abort = {
-		NOT = {
-			country_exists = HOL
-			country_exists = ENG	
-		}
-	}
-	
-	ai_strategy = {
-		type = antagonize
-		id = "HOL"			
-		value = 200
-	}		
-	ai_strategy = {
-		type = antagonize
-		id = "ENG"			
-		value = 100
-	}
-}
 
-northern_expansion = {
-	enable = {
-		tag = JAP
-		has_completed_focus = JAP_prepare_for_war_with_the_soviet_union
-		country_exists = SOV
-	}
-	abort = {
-		NOT = {
-			country_exists = SOV
-		}
-	}
-	
-	ai_strategy = {
-		type = antagonize
-		id = "SOV"			
-		value = 200
-	}		
-}
 
-chinese_war = {
-	enable = {
-		tag = JAP
-		has_completed_focus = JAP_intervene_in_china
-		country_exists = CHI
-	}
-	abort = {
-		NOT = {
-			country_exists = CHI
-		}
-	}
-	
-	ai_strategy = {
-		type = antagonize
-		id = "CHI"			
-		value = 200
-	}		
-}
 
-strike_usa = {
-	enable = {
-		tag = JAP
-		has_completed_focus = JAP_secure_the_philippines
-		country_exists = USA
-	}
-	abort = {
-		NOT = {
-			country_exists = USA
-		}
-	}
-	
-	ai_strategy = {
-		type = antagonize
-		id = "USA"			
-		value = 200
-	}
-
-	ai_strategy = {
-		type = antagonize
-		id = "PHI"			
-		value = 200
-	}	
-}
-
-# "I can run wild for six months… after that, I have no expectation of success"
-jap_hush_yamamoto_its_gonna_be_ok = {
-	enable = {
-		tag = JAP
-		has_completed_focus = JAP_secure_the_philippines
-		country_exists = USA
-		NOT = { has_war_with = USA }
-	}
-
-	abort = {
-		OR = {
-			has_war_with = USA
-			NOT = {
-				country_exists = USA
-			}
-		}
-	}
-
-	ai_strategy = {
-		type = consider_weak
-		id = "USA"
-		value = 75
-	}
-}
 
 jap_conserve_fuel_for_usa_fight = {
 	enable = {
@@ -418,27 +306,6 @@ jap_conserve_fuel_for_usa_fight = {
 	}
 }
 
-germany_ally = {
-	enable = {
-		tag = JAP
-		has_completed_focus = JAP_technological_exchange
-		country_exists = GER
-	}
-	abort = {
-		NOT = { country_exists = GER }
-	}
-	
-	ai_strategy = {
-		type = befriend
-		id = "GER"			
-		value = 200
-	}
-	ai_strategy = {
-		type = alliance
-		id = "GER"			
-		value = 200
-	}	
-}
 
 
 JAP_template_design = {

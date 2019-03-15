@@ -134,19 +134,10 @@ ideas = {
 			available = {
 				has_war_support > 0.25
 
+
 				if = {
 					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					OR = {
-						has_completed_focus = HUN_secret_rearmament
-						NOT = { has_idea = HUN_treaty_of_triannon }
-					}
-				}
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
+						
 						has_defensive_war = no
 					}
 					has_war_support > 0.5
@@ -168,8 +159,8 @@ ideas = {
 			on_add = {
 				if = {
 					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
+
+
 						has_defensive_war = no
 					}
 					
@@ -208,14 +199,6 @@ ideas = {
 
 				if = {
 					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					has_war_support > 0.75
@@ -237,8 +220,7 @@ ideas = {
 			on_add = {
 				if = {
 					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
+
 						has_defensive_war = no
 					}
 					
@@ -268,16 +250,9 @@ ideas = {
 					}
 				}
 
+
 				if = {
 					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					has_war_support > 0.9
@@ -287,8 +262,7 @@ ideas = {
 			on_add = {
 				if = {
 					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
+
 						has_defensive_war = no
 					}
 					
@@ -319,30 +293,8 @@ ideas = {
 					}
 				}
 
-				# Germany needs to be careful
-				modifier = {
-					factor = 0
 
-					tag = GER
-					NOT = { has_tech = volkssturm }
-					has_war = yes
-					date < 1944.01.01
-				}
-				modifier = {
-					factor = 0
 
-					tag = SOV
-					has_war = yes
-					OR = {
-						has_manpower < 2000000
-						NOT = {
-							OR = {
-								has_idea = all_adults_serve
-								has_idea = service_by_requirement
-							}
-						}
-					}									
-				}
    			}
 			
 			cost = 150
@@ -411,13 +363,7 @@ ideas = {
 			
 			available = {
 
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
+
 			}
 			
 			
@@ -484,13 +430,7 @@ ideas = {
 				}
 
 
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
+
 			}
 		
 			cost = 150
@@ -545,13 +485,6 @@ ideas = {
 					NOT = { has_opinion_modifier = MR_pact }
 				}
 
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
 			}
 			
 			cost = 150
