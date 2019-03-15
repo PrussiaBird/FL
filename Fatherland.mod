@@ -3,6 +3,7 @@ path="mod/Fatherland/"
 
 replace_path="common/national_focus"
 replace_path="common/ai_strategy_plans"
+replace_path="common/ai_strategy"
 replace_path="events"
 replace_path="common/decisions"
 replace_path="common/decisions/categories"
@@ -12,7 +13,9 @@ replace_path="common/scripted_effects"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/units"
-
+replace_path="common/technology_sharing"
+replace_path="common/scripted_triggers"
+replace_path="common/scripted_localisation"
 tags={
 	"Alternative History"
 	"Fixes"
