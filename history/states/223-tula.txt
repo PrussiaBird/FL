@@ -7,7 +7,8 @@ state={
 	state_category = town
 
 	history={
-		owner = SOV
+		owner = MOS
+		add_core_of = MOS
 		victory_points = {
 			6262 3 
 		}
@@ -17,11 +18,7 @@ state={
 			air_base = 1
 		}
 		add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-			}
-		}
+
 	}
 
 	provinces={

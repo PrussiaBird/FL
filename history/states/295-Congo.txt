@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = BEL
+		owner = GMA
+		add_core_of = GMA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

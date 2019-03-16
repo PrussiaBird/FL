@@ -6,7 +6,8 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = CAU
+		add_core_of = CAU
 		buildings = {
 			infrastructure = 3
 

@@ -9,7 +9,8 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = MOS
+		add_core_of = MOS
 		buildings = {
 			infrastructure = 3
 		}

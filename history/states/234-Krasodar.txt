@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = CAU
+		add_core_of = CAU
 		victory_points = {
 			3720 1 
 		}

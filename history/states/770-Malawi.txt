@@ -3,7 +3,8 @@ state={
 	name="STATE_770"
 
 	history={
-		owner = ENG
+		owner = GMA
+		add_core_of = GMA
 		add_core_of = MLW
 		victory_points = {
 			12986 1 

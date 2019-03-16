@@ -10,7 +10,8 @@ state={
 	state_category = city
 	
 	history={
-		owner = LAT
+		owner = OST
+		add_core_of = OST
 		victory_points = {
 			9340 5 
 		}

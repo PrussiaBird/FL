@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = LIT
+		owner = OST
+		add_core_of = OST
 		victory_points = {
 			9483 5
 		}

@@ -10,7 +10,8 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = GMA
+		add_core_of = GMA
 		add_core_of = ZAM
 		victory_points = {
 			5199 1

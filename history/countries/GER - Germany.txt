@@ -89,6 +89,18 @@ set_politics = {
 
 create_faction = Axis
 add_to_faction = GER
+add_to_faction = GMA
+add_to_faction = OST
+add_to_faction = UKR
+add_to_faction = MOS
+add_to_faction = CAU
+
+
+puppet = CAU
+puppet = MOS
+puppet = GMA
+puppet = OST
+puppet = UKR
 
 
 add_ideas = {

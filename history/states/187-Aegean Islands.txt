@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = GRE
+		owner = ITA
 		buildings = {
 			infrastructure = 4
 			dockyard = 1

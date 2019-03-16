@@ -2,6 +2,8 @@
 
 oob = "UKR_1936"
 
+set_cosmetic_tag = UKR_GER
+
 set_research_slots = 3
 
 # Starting tech
@@ -41,15 +43,15 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 15
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 30
+			popularity = 100
 		}
 		
 		communism = {
-			popularity = 50
+			popularity = 0
 		}
 	}
 }
@@ -77,26 +79,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Stepan Bandera"
+	name = "Erich Koch"
 	desc = ""
 	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = nazism
 	traits = {
 		
 	}
 }
 
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = oligarchism
-#	traits = {
-#		
-#	}
-#}
 
 
 
