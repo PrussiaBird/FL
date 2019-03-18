@@ -7,7 +7,63 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_ROM_fascism_group"
+		texturefile = "gfx/interface/ideologies/ROM/fier.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_KAZ_democratic_group"
+		texturefile = "gfx/interface/ideologies/KAZ/no.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_UZB_democratic_group"
+		texturefile = "gfx/interface/ideologies/UZB/pdp.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_ideology_HUN_fascism_group"
+		texturefile = "gfx/interface/ideologies/HUN/nykp.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SER_fascism_group"
+		texturefile = "gfx/interface/ideologies/SER/gns.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BUL_fascism_group"
+		texturefile = "gfx/interface/ideologies/BUL/ubnl.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CRO_fascism_group"
+		texturefile = "gfx/interface/ideologies/CRO/ustasha.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_GER_fascism_group"
+		texturefile = "gfx/interface/ideologies/GER/nsdap.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_UKR_fascism_group"
+		texturefile = "gfx/interface/ideologies/GER/nsdap.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CAU_fascism_group"
+		texturefile = "gfx/interface/ideologies/GER/nsdap.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_MOS_fascism_group"
+		texturefile = "gfx/interface/ideologies/GER/nsdap.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_OST_fascism_group"
 		texturefile = "gfx/interface/ideologies/GER/nsdap.dds"
 	}
 	

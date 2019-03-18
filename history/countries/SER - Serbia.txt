@@ -2,6 +2,8 @@
 
 oob = "YUG_1936"
 
+set_cosmetic_tag = SER_GER
+
 set_research_slots = 3
 
 add_ideas = {
@@ -31,27 +33,26 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 20
+			popularity = 1
 		}
 
 		fascism = {
-			popularity = 30
+			popularity = 99
 		}
 		
 		communism = {
-			popularity = 20
-			#banned = no #default is no
+			popularity = 0
 		}
 		
 		neutrality = { 
-			popularity = 30
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = fascism
+	last_election = "1941.4.10"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 
@@ -69,9 +70,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Milan Nedic"
+	name = "Milan Nedić"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	picture = "Portrait_SER_Milan_Nedic.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

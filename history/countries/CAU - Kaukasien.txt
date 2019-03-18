@@ -98,9 +98,9 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Hinrich Lohse"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_GER_Adolf_Hitler.dds"
+	name = "Arno Schickedanz"
+	desc = "POLITICS__DESC"
+	picture = "Portrait_CAU_Arno_Schickedanz.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {

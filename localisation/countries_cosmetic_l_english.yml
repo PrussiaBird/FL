@@ -5,14 +5,17 @@
  OST_GER_fascism:0 "Reichskommissariat Ostland"
  OST_GER_fascism_DEF:0 "the Reichskommissariat Ostland"
  
+ SER_GER_fascism:0 "Government of National Salvation"
+ SER_GER_fascism_DEF:0 "the Government of National Salvation"
+ 
  UKR_GER_fascism:0 "Reichskommissariat Ukraine"
  UKR_GER_fascism_DEF:0 "the Reichskommissariat Ukraine"
  
  MOS_GER_fascism:0 "Reichskommissariat Moskowien"
  MOS_GER_fascism_DEF:0 "the Reichskommissariat Moskowien"
  
- CAU_GER_fascism:0 "Reichskommissariat Kaukasus"
- CAU_GER_fascism_DEF:0 "the Reichskommissariat Kaukasus"
+ CAU_GER_fascism:0 "Reichskommissariat Kaukasien"
+ CAU_GER_fascism_DEF:0 "the Reichskommissariat Kaukasien"
  
  INS_subject:0 "$OVERLORDADJ$ East Indies"
  INS_subject_DEF:0 "the $OVERLORDADJ$ East Indies"

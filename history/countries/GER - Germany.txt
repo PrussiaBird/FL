@@ -94,13 +94,18 @@ add_to_faction = OST
 add_to_faction = UKR
 add_to_faction = MOS
 add_to_faction = CAU
+add_to_faction = CRO
+add_to_faction = SER
+add_to_faction = NOR
 
-
+puppet = NOR
+puppet = CRO
 puppet = CAU
 puppet = MOS
 puppet = GMA
 puppet = OST
 puppet = UKR
+puppet = SER
 
 
 add_ideas = {

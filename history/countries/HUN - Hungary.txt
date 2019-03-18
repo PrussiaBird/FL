@@ -24,23 +24,23 @@ set_technology = {
 set_politics = {
 	parties = {
 		democratic = { 
-			popularity = 25
+			popularity = 0
 		}
 		fascism = {
-			popularity = 31
+			popularity = 98
 		}
 		neutrality = {
-			popularity = 44
+			popularity = 2
 		}
 		communism = {
 			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1935.3.31"
+	ruling_party = fascism
+	last_election = "1942.3.7"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 
@@ -55,6 +55,18 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Ferenc Szálasi"
+	desc = "POLITICS_DESC"
+	picture = "Portrait_HUN_Ferenc_Szalasi.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
 
 create_country_leader = {
 	name = "Árpád Szakasits"

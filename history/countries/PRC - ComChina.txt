@@ -47,23 +47,12 @@ add_ideas = {
 create_country_leader = {
 	name = "Mao Zedong"
 	desc = "POLITICS_MAO_ZEDONG_DESC"
-	picture = "GFX_portrait_prc_mao_zedong"
+	picture = "Portrait_PRC_Mao_Zedong.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
 		cornered_fox
 	}
-}
-
-create_field_marshal = {
-	name = "Mao Zedong"
-	gfx = "GFX_portrait_prc_mao_zedong"
-	traits = { defensive_doctrine trait_cautious politically_connected }
-	skill = 4
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 4
 }
 
 create_corps_commander = {

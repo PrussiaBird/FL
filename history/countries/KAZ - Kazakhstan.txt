@@ -41,13 +41,27 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 60
+			popularity = 67
 		}
 		
 		communism = {
-			popularity = 40
+			popularity = 17
 		}		
+		
+		neutrality = { 
+			popularity = 13
+		}
+		
+		fascism = { 
+			popularity = 3
+		}
+		
 	}
+	
+	ruling_party = democratic
+	last_election = "1964.2.16"
+	election_frequency = 36
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -62,11 +76,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ilyas Zhansugurov"
+	name = "Nursultan Nazarbayev"
 	desc = ""
-	picture = "gfx/leaders/asia/Portrait_Asia_Generic_democracy.dds"
+	picture = "Portrait_KAZ_Nursultan_Nazarbayev.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = centrism
 	traits = {
 		
 	}

@@ -39,22 +39,22 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 47
+			popularity = 1
 		}
 
 		fascism = {
-			popularity = 46
+			popularity = 99
 		}
 		
 		communism = {
-			popularity = 7
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1933.2.16"
+	ruling_party = fascism
+	last_election = "1939.2.27"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 150
@@ -87,7 +87,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Francisco Franco"
 	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
-	picture = "Portrait_Spain_Francisco_Franco.dds"
+	picture = "Portrait_SPR_Francisco_Franco.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {

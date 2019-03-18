@@ -43,26 +43,26 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 20
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 18
+			popularity = 96
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 0
 		}
 		
 		neutrality = { 
-			popularity = 60
+			popularity = 4
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1933.12.20"
+	ruling_party = fascism
+	last_election = "1944.12.20"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 
@@ -100,21 +100,11 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Octavian Goga"
-	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
-	picture = "Portrait_Romania_Octavian_Goga.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
-	name = "Ion Antonescu"
-	desc = "POLITICS_ION_ANTONESCU_DESC"
-	picture = "Portrait_Romania_Ion_Antonescu.dds"
+	name = "Horia Sima"
+	desc = "POLITICS_DESC"
+	picture = "Portrait_ROM_Horia_Sima.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -133,16 +123,6 @@ create_field_marshal = {
 	logistics_skill = 3
 }
 
-create_field_marshal = {
-	name = "Ion Antonescu"
-	picture = "Portrait_Romania_Ion_Antonescu.dds"
-	traits = { offensive_doctrine }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
-}
 
 create_corps_commander = {
 	name = "Ioan Mihail Racovita"

@@ -1,15 +1,8 @@
 ﻿capital = 126
 
 set_oob = "ENG_1936"
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_naval_oob = "ENG_1936_Naval"
-	else = {
-		set_naval_oob = "ENG_1936_Naval_Legacy"
-	}
-}
+set_naval_oob = "ENG_1936_Naval_Legacy"
+
 
 
 set_research_slots = 4
@@ -87,22 +80,22 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 97
+			popularity = 20
 		}
 
 		fascism = {
-			popularity = 2
+			popularity = 78
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 2
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1935.11.14"
+	ruling_party = fascism
+	last_election = "1940.1.4"
 	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	elections_allowed = no
 }
 
 
@@ -134,14 +127,13 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Oswald Mosley"
+	name = "William Joyce"
 	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "Portrait_Britain_Oswald_Mosley.dds"
+	picture = "Portrait_ENG_William_Joyce.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		champion_of_peace_1
-		economic_reformer
+
 	}
 }
 

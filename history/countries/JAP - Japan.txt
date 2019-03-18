@@ -68,28 +68,31 @@ set_convoys = 400
 
 
 
-
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
-		}
 
 		fascism = {
-			popularity = 100
+			popularity = 2
 		}
 		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
+		democratic = {
+			popularity = 82
+		}
+		
+		communism = { 
+			popularity = 10
+		}
+		
+		neutrality = { 
+			popularity = 6
 		}
 	}
 	
-	ruling_party = fascism
-	last_election = "1936.1.1"
+	ruling_party = democratic
+	last_election = "1964.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 
@@ -120,14 +123,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tetsu Katayama"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_tetsu_katayama"
-	expire = "1989.1.1"
-	ideology = liberalism
+	name = "Eisaku Sato"
+	desc = ""
+	picture = "Portrait_JAP_Eisaku_Sato.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
 	traits = {
+		#
 	}
 }
+
+
 
 create_corps_commander = {
 	name = "Tomoyuki Yamashita"

@@ -61,22 +61,22 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 69
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 1
+			popularity = 90
 		}
 		
 		communism = {
-			popularity = 30
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1932.5.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 add_ideas = {
@@ -120,9 +120,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Philippe Pétain"
-	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "Portrait_France_Philippe_Petain.dds"
+	name = "Jacques Doriot"
+	desc = "POLITICS_DESC"
+	picture = "Portrait_FRA_Jacques_Doriot.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -130,38 +130,8 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-	name = "Jean de Lattre de Tassigny"
-	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
-	traits = { trickster brilliant_strategist cavalry_officer war_hero }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
-}
 
-create_corps_commander = {
-	name = "Alphonse Juin"
-	picture = "Portrait_France_Alphonse_Juin.dds"
-	traits = { armor_officer career_officer trait_cautious  }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 4
-}
 
-create_field_marshal = {
-	name = "Maurice Gamelin"
-	picture = "Portrait_France_Maurice_Gamelin.dds"
-	traits = { defensive_doctrine old_guard inflexible_strategist career_officer }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 1
-}
 
 create_field_marshal = {
 	name = "Maxime Weygand"
@@ -185,16 +155,7 @@ create_field_marshal = {
 	logistics_skill = 2
 }
 
-create_corps_commander = {
-	name = "Charles De Gaulle"
-	picture = "Portrait_France_Charles_De_Gaulle.dds"
-	traits = {  armor_officer harsh_leader media_personality }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
-}
+
 
 create_corps_commander = {
 	name = "Philippe Leclerc"
