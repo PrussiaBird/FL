@@ -6,7 +6,7 @@ bookmarks = {
 		picture = "GFX_select_date_1939"
 		default_country = "GER"
 	
-		FRA = {
+		CAN = {
 			history = FRA_BLITZKRIEG_DESC
 			ideology = democratic
 			ideas={
@@ -24,9 +24,9 @@ bookmarks = {
 
 			}
 		}
-		ENG = {
+		FRA = {
 			history = ENG_BLITZKRIEG_DESC
-			ideology = democratic
+			ideology = fascism
 			ideas = {
 
 			}
@@ -55,9 +55,9 @@ bookmarks = {
 
 			}			
 		}
-		JAP = {
-			history = JAP_BLITZKRIEG_DESC
-			ideology = fascism
+		FRF = {
+			history = PRC_BLITZKRIEG_DESC
+			ideology = democratic
 			ideas={
 
 			}	
@@ -65,7 +65,7 @@ bookmarks = {
 
 			}		
 		}
-		SOV = {
+		PRC = {
 			history = SOV_BLITZKRIEG_DESC
 			ideology = communism
 			ideas = {
@@ -80,21 +80,21 @@ bookmarks = {
 			history = "OTHER_BLITZKRIEG_DESC"
 		}
 
-		# minors from DLC ####
-		"POL"={
+		# minors 
+		"SOV"={
 			minor = yes
 			history = "POL_BLITZKRIEG_DESC"
-			ideology = neutrality
+			ideology = communism
 			ideas = {
 			}
 			focuses = {
 
 			}
 		}
-		"CAN"={
+		"ENG"={
 			minor = yes
 			history = "CAN_BLITZKRIEG_DESC"
-			ideology = democratic
+			ideology = fascism
 			ideas = {
 
 			}
@@ -102,10 +102,10 @@ bookmarks = {
 
 			}
 		}
-		"AST"={
+		"SPR"={
 			minor = yes
 			history = "AST_BLITZKRIEG_DESC"
-			ideology = democratic
+			ideology = fascism
 			ideas = {
 
 			}
@@ -113,7 +113,7 @@ bookmarks = {
 
 			}
 		}
-		"NZL"={
+		"KAZ"={
 			minor = yes
 			history = "NZL_BLITZKRIEG_DESC"
 			ideology = democratic
@@ -146,119 +146,7 @@ bookmarks = {
 
 			}
 		}
-		"HUN"={
-			minor = yes
-			history = "HUN_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
 
-			}
-			focuses = {
-
-			}
-		}
-
-		"ROM"={
-			minor = yes
-			history = "ROM_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-		
-		"YUG"={
-			minor = yes
-			history = "YUG_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-		"CHI"={
-			minor = yes
-			history = "CHI_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-		"PRC"={
-			minor = yes
-			history = "PRC_BLITZKRIEG_DESC"
-			ideology = communism
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-		"MAN"={
-			minor = yes
-			history = "MAN_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
-
-		"GXC"={
-			minor = yes
-			history = "WARLORDS_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}		
-		"YUN"={
-			minor = yes
-			history = "WARLORDS_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}		
-		"XSM"={
-			minor = yes
-			history = "WARLORDS_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}		
-		"SIK"={
-			minor = yes
-			history = "WARLORDS_BLITZKRIEG_DESC"
-			ideology = fascism
-			ideas = {
-
-			}
-			focuses = {
-
-			}
-		}
 
 		"MEX"={
 			minor = yes
@@ -272,17 +160,7 @@ bookmarks = {
 			}
 		}
 
-		"HOL"={
-			minor = yes
-			history = "NETHERLANDS_BLITZKRIEG_DESC"
-			ideology = democratic
-			ideas = {
 
-			}
-			focuses = {
-
-			}
-		}
 		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !

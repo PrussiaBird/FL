@@ -89,7 +89,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Charles de Gaulle"
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "Portrait_France_Charles_De_Gaulle.dds"
+	picture = "Portrait_FRF_Charles_De_Gaulle.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -131,19 +131,6 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 4
-}
-
-
-
-create_corps_commander = {
-	name = "Charles De Gaulle"
-	picture = "Portrait_France_Charles_De_Gaulle.dds"
-	traits = {  armor_officer harsh_leader media_personality }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
 }
 
 
