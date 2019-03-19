@@ -303,15 +303,7 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	division= {	# "13ème Division d'Infanterie"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 13
-		}
-		location = 678
-		division_template = "Division d'Infanterie" 	# Frontline, best equipment
-		start_experience_factor = 0.3
-	}
+
 	division= {	# "14ème Division d'Infanterie"
 		division_name = {
 			is_name_ordered = yes
