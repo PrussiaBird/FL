@@ -1,12 +1,12 @@
 bookmarks = {
 	bookmark = {
-		name = "BLITZKRIEG_NAME"
-		desc = "BLITZKRIEG_DESC"
+		name = "Fatherland_1964"
+		desc = "Fatherland_1964_DESC"
 		date = 1964.1.1.12
 		picture = "GFX_select_date_1939"
 		default_country = "GER"
 	
-		CAN = {
+		"CAN" = {
 			history = FRA_BLITZKRIEG_DESC
 			ideology = democratic
 			ideas={
@@ -14,7 +14,7 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		USA = {
+		"USA" = {
 			history = USA_BLITZKRIEG_DESC
 			ideology = democratic
 			ideas = {
@@ -24,7 +24,7 @@ bookmarks = {
 
 			}
 		}
-		FRA = {
+		"FRA" = {
 			history = ENG_BLITZKRIEG_DESC
 			ideology = fascism
 			ideas = {
@@ -35,8 +35,8 @@ bookmarks = {
 			}
 			
 		}
-		GER = {
-			history = GER_BLITZKRIEG_DESC
+		"GER" = {
+			history = GER_Fatherland_1964_DESC
 			ideology = fascism
 			ideas = {
 
@@ -45,7 +45,7 @@ bookmarks = {
 
 			}
 		}
-		ITA = {
+		"ITA" = {
 			history = ITA_BLITZKRIEG_DESC
 			ideology = fascism
 			ideas={
@@ -55,7 +55,7 @@ bookmarks = {
 
 			}			
 		}
-		FRF = {
+		"FRF" = {
 			history = PRC_BLITZKRIEG_DESC
 			ideology = democratic
 			ideas={
@@ -65,8 +65,8 @@ bookmarks = {
 
 			}		
 		}
-		PRC = {
-			history = SOV_BLITZKRIEG_DESC
+		"PRC" = {
+			history = PRC_Fatherland_1964_DESC
 			ideology = communism
 			ideas = {
 
@@ -77,13 +77,13 @@ bookmarks = {
 		}
 
 		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
+			history = "Fatherland_1964_DESC"
 		}
 
 		# minors 
-		"SOV"={
+		SOV={
 			minor = yes
-			history = "POL_BLITZKRIEG_DESC"
+			history = SOV_Fatherland_1964_DESC
 			ideology = communism
 			ideas = {
 			}
@@ -148,17 +148,7 @@ bookmarks = {
 		}
 
 
-		"MEX"={
-			minor = yes
-			history = "MEXICO_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
 
-			}
-			focuses = {
-
-			}
-		}
 
 
 		

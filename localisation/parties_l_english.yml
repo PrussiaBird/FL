@@ -83,8 +83,10 @@
  ENG_neutrality_party_kings_party_long:0 "The King's Party"
  
  ITA_communism_party:0 "Partito Comunista Italiano"
- ITA_democratic_party:0 "Partito Popolare Italiano"
- ITA_fascism_party:0 "Partito Nazionale Fascista"
+ ITA_democratic_party_long:0 "Partito Popolare Italiano"
+ ITA_democratic_party:0 "PPI"
+ ITA_fascism_party:0 "PNF"
+ ITA_fascism_party_long:0 "Partito Nazionale Fascista"
  ITA_neutrality_party:0 "Partito Nazionale Monarchico"
  
  JAP_communism_party:0 "Nihon Kyosan-to"

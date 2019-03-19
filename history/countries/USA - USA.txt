@@ -102,16 +102,14 @@ set_autonomy = {
 
 
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
-	ideology = liberalism
+	name = "Joseph P. Kennedy Sr."
+	desc = ""
+	picture = "Portrait_USA_Joseph_Kennedy_Sr.dds"
+	expire = "1965.1.1"
+	ideology = socialism
 	traits = {
-		dislikes_germany
 	}
 }
-
 create_country_leader = {
 	name = "William Dudley Pelley"
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
