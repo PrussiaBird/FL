@@ -45,22 +45,22 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 10
+			popularity = 79
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 0
 		}
 
 		neutrality = {
-			popularity = 79
+			popularity = 11
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1933.7.1"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 
@@ -87,8 +87,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vilho Annala"
-	desc = "POLITICS_VILHO_ANNALA_DESC"
+	name = "Pekka Siitoin"
+	desc = "POLITICSDESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

@@ -87,7 +87,7 @@ set_politics = {
 
 }
 
-create_faction = Axis
+create_faction = "European Community"
 add_to_faction = GER
 add_to_faction = GMA
 add_to_faction = OST
@@ -97,6 +97,15 @@ add_to_faction = CAU
 add_to_faction = CRO
 add_to_faction = SER
 add_to_faction = NOR
+
+add_to_faction = POR
+add_to_faction = SPR
+add_to_faction = FRA
+add_to_faction = IRE
+add_to_faction = ENG
+add_to_faction = ITA
+add_to_faction = SWE
+add_to_faction = FIN
 
 puppet = NOR
 puppet = CRO
