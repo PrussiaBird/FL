@@ -1464,7 +1464,7 @@ focus = {
 #Focus for Seize The Wealth
 focus = { 
 	id = GER_ydWZStmX
-	icon = GFX_goal_unknown
+	icon = GFX_seize
 	x = 7
 	y = 4
 	cost = 3

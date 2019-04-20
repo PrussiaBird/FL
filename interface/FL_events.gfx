@@ -1,9 +1,5 @@
 spriteTypes = {	
 
-	spriteType = {
-		name = "GFX_fatherland_report_event_hitler_birthday"
-		texturefile = "gfx/event_pictures/fatherland_report_event_hitler_birthday.dds"
-	}
 	
 	spriteType = {
 		name = "GFX_fatherland_report_event_hitler_dead"

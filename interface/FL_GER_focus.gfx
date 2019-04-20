@@ -7,6 +7,12 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
+		name = "GFX_seize" 
+		texturefile = "gfx/interface/goals/GFX_seize.tga" 
+		
+	}
+	
+	SpriteType = { 
 		name = "GFX_erhard" 
 		texturefile = "gfx/interface/goals/GFX_erhardaspresidentofreichsbank.tga" 
 		

@@ -12,6 +12,8 @@ bookmarks = {
 			ideas={
 			}
 			focuses = {
+			
+			
 			}
 		}
 		"USA" = {
@@ -42,7 +44,9 @@ bookmarks = {
 				rivalry
 			}
 			focuses = {
-
+				GER_heilrommel
+				GER_goebbelspartycoup
+				GER_YxLlJgDt
 			}
 		}
 		"ITA" = {
