@@ -16,6 +16,7 @@ replace_path="history/units"
 replace_path="common/technology_sharing"
 replace_path="common/scripted_triggers"
 replace_path="common/scripted_localisation"
+replace_path="gfx/loadingscreens/"
 tags={
 	"Alternative History"
 	"Fixes"
