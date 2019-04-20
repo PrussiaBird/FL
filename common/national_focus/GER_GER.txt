@@ -976,7 +976,7 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_BlTQrMsF } 
 completion_reward = { 
 remove_ideas = rivalry
-country_event = { id = fatherland.13 }
+country_event = { id = fatherland.9 }
 } 
 
 } 
@@ -1032,7 +1032,7 @@ available_if_capitulated = yes
 prerequisite = { focus = GER_BlTQrMsF } 
 completion_reward = { 
 add_political_power = 100
-country_event = { id = fatherland.12 }
+country_event = { id = fatherland.8 }
 } 
 
 } 
@@ -1047,7 +1047,7 @@ cost = 4
 available_if_capitulated = yes 
 prerequisite = { focus = GER_BlTQrMsF } 
 completion_reward = { 
-country_event = { id = fatherland.15 }
+country_event = { id = fatherland.11 }
 } 
 
 } 
@@ -1081,7 +1081,7 @@ focus = {
 	available_if_capitulated = yes 
 	prerequisite = { focus = GER_BlTQrMsF } 
 	completion_reward = { 
-		country_event = { id = fatherland.14 }
+		country_event = { id = fatherland.10 }
 	} 
 
 } 
