@@ -471,6 +471,7 @@ focus_tree = {
 			annex_country = { target = OST}
 			annex_country = { target = MOS}
 			annex_country = { target = CAU}
+			annex_country = { target = UKR}
 		} 
 
 	} 
