@@ -1,4 +1,10 @@
 ﻿l_english:
+ rivalry:0 "Rivalry"
+ GER_total_loyalty:0"Total Loyalty"
+ GER_united_military:0"United Military"
+ GER_competency:0"Competency"
+ GER_pacem:0"Germanica Pacem"
+ GER_consumer_goods:0"Goods for the People"
  foreign_policy:0 "Foreign Policy"
  aggressive_expansion:0 "Aggressive Expansion"
  aggressive_intervention:0 "Aggressive Intervention"

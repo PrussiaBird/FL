@@ -86,36 +86,6 @@ ideas = {
 			}
 		}	
 			
-		kurt_schumacher = {
-
-			
-			allowed = {
-				original_tag = GER
-			}
-			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-				if = {
-					limit = { has_dlc = "Waking the Tiger" }
-					has_completed_focus = GER_reestablish_free_elections
-				}
-			}
-			
-			traits = { democratic_reformer }
-
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		
 		joseph_goebbels = {
 
@@ -215,100 +185,8 @@ ideas = {
 			traits = { smooth_talking_charmer }
 		}
 
-		GER_hans_oster = {
 
-			
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
 
-			available = {
-				has_completed_focus = GER_oppose_hitler
-			}
-			
-			traits = { anti_fascist_agent }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		GER_alfred_hugenberg = {
-
-			
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-
-			available = {
-				has_completed_focus = GER_revive_the_kaiserreich
-			}
-			
-			traits = { monarchist_media_mogul }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		GER_carl_friedrich_goerdeler = {
-
-			
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-
-			available = {
-				has_completed_focus = GER_revive_the_kaiserreich
-			}
-			
-			traits = { economist }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		GER_julius_leber = {
-
-			
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-
-			available = {
-				has_completed_focus = GER_reestablish_free_elections
-			}
-			
-			traits = { connected_citizen }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		GER_theodor_heuss = {
-
-			
-			allowed = {
-				original_tag = GER
-				has_dlc = "Waking the Tiger"
-			}
-
-			available = {
-				has_completed_focus = GER_reestablish_free_elections
-			}
-			
-			traits = { liberal_journalist }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
 	}
 
 	

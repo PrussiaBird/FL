@@ -2,6 +2,8 @@ ideologies = {
 	
 	democratic = {
 	
+	can_be_boosted = no
+	
 		types = {
 			
 			conservatism = {
@@ -29,12 +31,13 @@ ideologies = {
 		color = { 0 0 255 }
 		
 		rules = {
+			can_only_justify_war_on_threat_country = yes
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = no
 			can_puppet = no
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
+			
 			can_guarantee_other_ideologies = yes
 		}
 		
@@ -61,6 +64,8 @@ ideologies = {
 
 
 	communism = {
+	
+		can_be_boosted = no
 		
 		types = {
 		
@@ -95,13 +100,17 @@ ideologies = {
 		
 		ai_communist = yes # uses the commie AI behaviour
 		
+
+			
 		rules = {
+			
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
 		
 		modifiers = {
+		generate_wargoal_tension = 1
 			puppet_cost_factor = -0.3
 		}
 		
@@ -112,6 +121,8 @@ ideologies = {
 	}
 
 	fascism = {
+	
+		can_be_boosted = no
 	
 		types = {
 		
@@ -142,6 +153,7 @@ ideologies = {
 		faction_impact_on_world_tension = 1.0
 		
 		rules = {
+			
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
@@ -149,6 +161,7 @@ ideologies = {
 		
 		modifiers = {
 			justify_war_goal_when_in_major_war_time = -0.80
+			generate_wargoal_tension = 1
 		}
 
 		ai_fascist = yes # uses the fascist AI behaviour
@@ -190,6 +203,7 @@ ideologies = {
 		faction_impact_on_world_tension = 0.1
 		
 		rules = {
+		
 			can_force_government = no
 			can_puppet = yes
 			can_send_volunteers = no
@@ -197,7 +211,7 @@ ideologies = {
 		
 		modifiers = {
 			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
+			generate_wargoal_tension = 1
 			join_faction_tension = 0.4
 			lend_lease_tension = 0.4
 			send_volunteers_tension = 0.4

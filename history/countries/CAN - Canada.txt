@@ -62,11 +62,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Mackenzie King"
-	desc = "POLITICS_MACKENZIE_KING_DESC"
-	picture = "Portrait_Canada_Mackenzie_King.dds"
+	name = "Winston Churchill"
+	desc = "POLITICS__DESC"
+	picture = "Portrait_CAN_Winston_Churchill.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -94,16 +94,7 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "J. S. Woodsworth"
-	desc = "POLITICS_JS_WOODSWORTH_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
+
 
 set_convoys = 100
 set_stability = 0.75

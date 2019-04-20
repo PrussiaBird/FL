@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "Fatherland_1964"
 		desc = "Fatherland_1964_DESC"
-		date = 1964.1.1.12
+		date = 1964.3.31.12
 		picture = "GFX_select_date_1939"
 		default_country = "GER"
 	
@@ -39,7 +39,7 @@ bookmarks = {
 			history = GER_Fatherland_1964_DESC
 			ideology = fascism
 			ideas = {
-
+				rivalry
 			}
 			focuses = {
 

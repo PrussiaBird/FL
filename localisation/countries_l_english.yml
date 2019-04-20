@@ -1243,6 +1243,7 @@
  MNT_democratic_ADJ:0 "Montenegrin"
  MNT_neutrality_ADJ:0 "Montenegrin"
  MNT_communism_ADJ:0 "Montenegrin"
+ 
  UKR_fascism:0 "Ukraine"
  UKR_fascism_DEF:0 "Ukraine"
  UKR_democratic:0 "Republic of Ukraine"
@@ -1255,6 +1256,26 @@
  UKR_democratic_ADJ:0 "Ukrainian"
  UKR_neutrality_ADJ:0 "Ukrainian"
  UKR_communism_ADJ:0 "Ukrainian"
+ 
+ 
+ MOS_fascism:0 "Moscow"
+ MOS_fascism_DEF:0 "Moscow"
+ MOS_democratic:0 "Republic of Moscow"
+ MOS_democratic_DEF:0 "the Republic of Moscow"
+ MOS_neutrality:0 "Moscow"
+ MOS_neutrality_DEF:0 "Moscow"
+ MOS_communism:1 "Moscowian Socialist Republic"
+ MOS_communism_DEF:1 "the Moscowian Socialist Republic"
+ MOS_fascism_ADJ:0 "Moscowian"
+ MOS_democratic_ADJ:0 "Moscowian"
+ MOS_neutrality_ADJ:0 "Moscowian"
+ MOS_communism_ADJ:0 "Moscowian"
+ 
+ CAU_fascism_ADJ:0 "Caucasian"
+ CAU_democratic_ADJ:0 "Caucasian"
+ CAU_neutrality_ADJ:0 "Caucasian"
+ CAU_communism_ADJ:0 "Caucasian"
+ 
  GEO_fascism:0 "Caucasus Authority"
  GEO_fascism_DEF:0 "the Caucasus Authority"
  GEO_democratic:0 "Republic of Georgia"

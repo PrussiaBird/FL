@@ -16,7 +16,7 @@ ideas = {
 			modifier = {
 				justify_war_goal_time = -0.05
 				political_power_gain = -0.2
-				research_time_factor = 0.01
+				research_speed_factor = 0.01
 				
 			}
 			
@@ -127,7 +127,7 @@ ideas = {
 			
 			available = {
 			    NOT = {
-				    has_government = national_socialist
+				    has_government = fascism
 				}
 			}
 			
@@ -151,7 +151,7 @@ ideas = {
 			
 			available = {
 			    NOT = {
-				    has_government = national_socialist
+				    has_government = fascism
 				}
 			}
 			
@@ -177,7 +177,7 @@ ideas = {
 			
 			available = {
 			    NOT = {
-				    has_government = national_socialist
+				    has_government = fascism
 				}
 			}
 			
@@ -357,6 +357,7 @@ ideas = {
 			available = {
 			    NOT = {
 				    has_government = communism
+					has_government = democratic
 				}
 			}
 			

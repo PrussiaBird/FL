@@ -49,13 +49,7 @@ is_alone_or_in_faction_at_peace_with_GER = {
 
 
 
-#Country scope
-GER_can_delay_mefo_payment = {
-	custom_trigger_tooltip = {
-		tooltip = GER_can_delay_mefo_payment
-		NOT = { has_idea = GER_mefo_bills_18 }
-	}
-}
+
 
 GER_naval_interest_trigger = {
 	OR = {
