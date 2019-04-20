@@ -162,7 +162,7 @@ focus_tree = {
 		cost = 2
 		available_if_capitulated = yes 
 		prerequisite = { focus = GER_qKrRiyoc } 
-		mutually_exclusive = { focus = GER_WyDSxqlf }mutually_exclusive = { focus = GER_clTazgJK }
+		mutually_exclusive = { focus = GER_WyDSxqlf } mutually_exclusive = { focus = GER_clTazgJK }
 	} 
 
 #Focus for Extended War Economy
@@ -630,6 +630,7 @@ cost = 2
 available_if_capitulated = yes 
 prerequisite = { focus = GER_qKrRiyoc } 
 mutually_exclusive = { focus = GER_rZdhzKFa}
+mutually_exclusive = { focus = GER_WyDSxqlf}
 } 
 
 #Focus for Erhard as president of Reichsbank
@@ -641,7 +642,8 @@ y = 1
 cost = 2
 available_if_capitulated = yes 
 prerequisite = { focus = GER_qKrRiyoc } 
-mutually_exclusive = { focus = GER_rZdhzKFa } 
+mutually_exclusive = { focus = GER_rZdhzKFa}
+mutually_exclusive = { focus = GER_clTazgJK}
 
 } 
 
