@@ -77,13 +77,14 @@ country_event = {
 	title = fatherland.5.title
 	desc = fatherland.5.desc
 	picture = GFX_report_event_partition_of_india
-	fire_only_once = yes
+#   fire_only_once = yes
 	major = yes
-	trigger = {
-		GER = {has_completed_focus
-			= GER_MZxcuzHX
-		}
-	}	mean_time_to_happen = { days = 1}
+#	trigger = {
+#		GER = {has_completed_focus
+#			= GER_UjZkfcOD
+#		}
+#	}	mean_time_to_happen = { days = 1}
+is_triggered_only = yes
 	option = {
 		name = fatherland.5.a
 		ai_chance = { factor = 1}
@@ -104,13 +105,14 @@ country_event = {
 	title = fatherland.6.title
 	desc = fatherland.6.desc
 	picture = GFX_report_event_partition_of_india
-	fire_only_once = yes
+#	fire_only_once = yes
 	major = yes
-	trigger = {
-		GER = {has_completed_focus
-			= GER_GslzSdvu
-		}
-	}	mean_time_to_happen = { days = 1}
+#	trigger = {
+#		GER = {has_completed_focus
+#			= GER_GslzSdvu
+#		}
+#	}	mean_time_to_happen = { days = 1}
+is_triggered_only = yes
 	option = {
 		name = fatherland.6.a
 		ai_chance = { factor = 1}
@@ -188,13 +190,14 @@ country_event = {
 	title = fatherland.9.title
 	desc = fatherland.9.desc
 	picture = GFX_report_event_chinese_soldiers_running
-	fire_only_once = yes
+#	fire_only_once = yes
 	major = yes
-	trigger = {
-		GER = {has_completed_focus
-			= GER_HtPxcpdY
-		}
-	}	mean_time_to_happen = { days = 1}
+#	trigger = {
+#		GER = {has_completed_focus
+#			= GER_HtPxcpdY
+#		}
+#	}	mean_time_to_happen = { days = 1}
+is_triggered_only = yes
 	option = {
 		name = fatherland.9.a
 		ai_chance = { factor = 1}
@@ -210,11 +213,12 @@ country_event = {
 	title = fatherland.10.title
 	desc = fatherland.10.desc
 	picture = GFX_report_event_dead_soldiers
-	fire_only_once = yes
+#	fire_only_once = yes
 	major = yes
-	trigger = {
-		GER = {has_completed_focus = GER_YzxbWvdh}
-	}	mean_time_to_happen = { days = 1}
+#	trigger = {
+#		GER = {has_completed_focus = GER_YzxbWvdh}
+#	}	mean_time_to_happen = { days = 1}
+is_triggered_only = yes
 	option = {
 		name = fatherland.10.a
 		ai_chance = { factor = 1}
