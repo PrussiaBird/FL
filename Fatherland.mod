@@ -1,6 +1,5 @@
 name="Fatherland"
 path="mod/Fatherland/"
-
 replace_path="common/national_focus"
 replace_path="common/ai_strategy_plans"
 replace_path="common/ai_strategy"
@@ -16,6 +15,7 @@ replace_path="history/units"
 replace_path="common/technology_sharing"
 replace_path="common/scripted_triggers"
 replace_path="common/scripted_localisation"
+replace_path="common/countries"
 replace_path="gfx/loadingscreens/"
 tags={
 	"Alternative History"
@@ -24,4 +24,5 @@ tags={
 	"National Focuses"
 }
 picture="preview.png"
+remote_file_id="1625817015"
 supported_version="1.6.*"
