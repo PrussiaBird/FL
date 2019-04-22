@@ -52,7 +52,7 @@ focus_tree = {
 		} 
 		completion_reward = { 
 			create_wargoal= { 
-				type = annex_everything 
+				type = puppet_wargoal_focus 
 				target = SYR
 			}
 		} 
@@ -1973,7 +1973,7 @@ factor = 1
 } 
 completion_reward = { 
 create_wargoal= { 
-type = annex_everything 
+type = puppet_wargoal_focus 
 target = ITA
 }
 } 
@@ -2191,7 +2191,7 @@ MEX = {add_ideas = fascist_influence}
 			} 
 			completion_reward = { 
 				create_wargoal= { 
-					type = annex_everything 
+					type = puppet_wargoal_focus 
 					target = SAU
 				}
 			} 
@@ -2212,7 +2212,7 @@ MEX = {add_ideas = fascist_influence}
 			} 
 			completion_reward = { 
 				create_wargoal= { 
-					type = annex_everything 
+					type = puppet_wargoal_focus 
 					target = IRQ
 				}
 			} 
@@ -2236,7 +2236,7 @@ MEX = {add_ideas = fascist_influence}
 			} 
 			completion_reward = { 
 				create_wargoal= { 
-					type = annex_everything 
+					type = puppet_wargoal_focus 
 					target = TUR
 				}
 			} 
