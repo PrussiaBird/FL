@@ -7,6 +7,27 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
+		name = "GFX_denomination" 
+		texturefile = "gfx/interface/goals/GFX_denomination.dds" 
+		
+	}
+	
+	SpriteType = { 
+		name = "GFX_control_colonies" 
+		texturefile = "gfx/interface/goals/GFX_control_colonies.dds" 
+		
+	}
+	
+	SpriteType = { 
+		name = "GFX_expand_slave_labour" 
+		texturefile = "gfx/interface/goals/GFX_expand_slave_labour.dds" 
+		
+	}
+	
+	
+
+	
+	SpriteType = { 
 		name = "GFX_seize" 
 		texturefile = "gfx/interface/goals/GFX_seize.tga" 
 		
