@@ -141,7 +141,7 @@ focus_tree = {
 #Focus for Denomination
 	focus = { 
 		id = GER_AGQSWvFz
-		icon = GFX_goal_unknown
+		icon = GFX_denomination
 		x = 25
 		y = 2
 		cost = 4
@@ -302,7 +302,7 @@ focus_tree = {
 #Focus for Expand slave labour
 	focus = { 
 		id = GER_INhluSaD
-		icon = GFX_goal_unknown
+		icon = GFX_expand_slave_labour
 		x = 31
 		y = 3
 		cost = 4
@@ -494,7 +494,7 @@ focus_tree = {
 #Focus for Direct Control of the Colonies
 	focus = { 
 		id = GER_iIVYRxvm
-		icon = GFX_goal_unknown
+		icon = GFX_control_colonies
 		x = 28
 		y = 7
 		cost = 5
