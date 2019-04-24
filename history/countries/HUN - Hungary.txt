@@ -24,20 +24,20 @@ set_technology = {
 set_politics = {
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 25
 		}
 		fascism = {
-			popularity = 98
+			popularity = 23
 		}
 		neutrality = {
-			popularity = 2
+			popularity = 50
 		}
 		communism = {
-			popularity = 0
+			popularity = 2
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1942.3.7"
 	election_frequency = 48
 	elections_allowed = no
@@ -46,11 +46,22 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Mátyás Rákosi"
-	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
-	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
+	name = "István Horthy"
+	desc = "POLITICS_ISTVAN_HORTY_DESC"
+	picture = "Portrait_HUN_Istvan_Horthy.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Nagy Imre"
+	desc = "POLITICS_NAGY_IMRE_DESC"
+	picture = "Portrait_HUN_Nagy_Imre.tga"
+	expire = "1965.1.1"
+	ideology = leninism
 	traits = {
 		#
 	}
@@ -69,11 +80,11 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Árpád Szakasits"
-	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	name = "Kovács Béla"
+	desc = "POLITICS_KOVACS_BELA_DESC"
+	picture = "Portrait_HUN_Kovacs_Bela.tga"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = conservatism
 	traits = {
 		#
 	}
