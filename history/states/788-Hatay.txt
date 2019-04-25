@@ -1,5 +1,3 @@
-/history/states/788-Hatay.txt
-@@ -0,0 +1,26 @@
  state={
 	id=788
 	name="STATE_788"
