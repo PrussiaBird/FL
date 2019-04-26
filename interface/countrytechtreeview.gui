@@ -341,7 +341,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1918"
+					text = "1946"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -354,7 +354,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1936"
+					text = "1963"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -378,7 +378,7 @@ guiTypes = {
 					position = { x = 523 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1939"
+					text = "1965"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -390,7 +390,7 @@ guiTypes = {
 #					position = { x = 650 y = 50 }
 #					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
-#					text = "1940"
+#					text = "1965"
 #					maxWidth = 170
 #					maxHeight = 32
 #					format = left
@@ -402,7 +402,7 @@ guiTypes = {
 #					position = { x = 790 y = 50 }
 #					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
-#					text = "1941"
+#					text = "1966"
 #					maxWidth = 170
 #					maxHeight = 32
 #					format = left
@@ -414,7 +414,7 @@ guiTypes = {
 					position = { x = 943 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1942"
+					text = "1968"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -426,7 +426,7 @@ guiTypes = {
 #					position = { x = 1070 y = 50 }
 #					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
-#					text = "1943"
+#					text = "1968"
 #					maxWidth = 170
 #					maxHeight = 32
 #					format = left
@@ -438,7 +438,7 @@ guiTypes = {
 #					position = { x = 1210 y = 50 }
 #					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
-#					text = "1944"
+#					text = "1969"
 #					maxWidth = 170
 #					maxHeight = 32
 #					format = left
@@ -449,7 +449,7 @@ guiTypes = {
 					position = { x = 1363 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1945"
+					text = "1971"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
