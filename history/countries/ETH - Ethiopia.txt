@@ -53,7 +53,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 100
 		}
 		
 		communism = {
@@ -62,11 +62,11 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -84,11 +84,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Fitawrari Yeebio Woldai"
-	desc = "POLITICS_YEEBIO_WOLDAI_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
+	name = "Giovanni Messe"
+	desc = "POLITICS_GIOVANNI_MESSE_DESC"
+	picture = "Portrait_ETH_Giovanni_Messe.tga"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = fascism
 	traits = {
 		#
 	}
@@ -105,7 +105,7 @@ create_country_leader = {
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 100
 		}
 		
 		communism = {
@@ -114,11 +114,11 @@ create_country_leader = {
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 0
 		}
 	}
 		
-		ruling_party = neutrality
+		ruling_party = fascism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no

@@ -61,24 +61,24 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 25
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 20
+			popularity = 100
 		}
 		
 		communism = {
-			popularity = 5
+			popularity = 0
 			#banned = no #default is no
 		}
 		
 		neutrality = { 
-			popularity = 50
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -95,9 +95,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ahmed Husayn"
+	name = "Ettore Bastico"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	picture = "Portrait_EGY_Ettore_Bastico.tga"
 	ideology = fascism_ideology
 	traits = {
 		#

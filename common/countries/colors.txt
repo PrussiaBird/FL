@@ -193,8 +193,8 @@ ELS = {
 	color_ui = rgb { 198 169 248 }
 }
 ETH = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 0 119 60 }
+	color_ui = rgb { 87 165 82 }
 }
 GUA = {
 	color = rgb { 72 49 112 }
@@ -361,8 +361,8 @@ LBA = {
 }
 
 EGY = {
-	color = rgb { 230 230 70 }
-	color_ui = rgb { 230 230 70 }
+	color = rgb { 0 119 60 }
+	color_ui = rgb { 87 165 82 }
 }
 
 PAL = {

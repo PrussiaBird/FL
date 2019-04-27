@@ -79,8 +79,8 @@ set_politics = {
 	elections_allowed = no
 }
 
-
-
+puppet = EGY
+puppet = ETH
 
 create_country_leader = {
 	name = "Benito Mussolini"
