@@ -1,0 +1,24 @@
+ state={
+	id=790
+	name="STATE_790"
+
+	history={
+		owner = POR
+		victory_points = {
+			1552 1 
+		}
+
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ANG
+
+	}
+
+	provinces={
+		1552 2126 12391 4735
+	}
+	manpower=200120
+	buildings_max_level_factor=1.000
+	state_category=pastoral

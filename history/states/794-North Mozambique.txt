@@ -1,7 +1,6 @@
-
 state={
-	id=544
-	name="STATE_544" #Mozambique
+	id=794
+	name="STATE_794" #Mozambique
 	manpower = 4125000
 	
 	state_category = rural
@@ -11,12 +10,17 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
+			2123 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			2123 1 
 		}
 		add_core_of = MZB
 	}
 
 	provinces={
-		2120 5155 12935 12950   
+		12971 2180 5164 2123 2159 2217 10972 2202
 	}
 }
