@@ -178,23 +178,23 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 18
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 15
+			popularity = 100
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 0
 		}
 		
 		neutrality = { 
-			popularity = 65
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
@@ -205,23 +205,23 @@ set_politics = {
 
 		parties = {
 			democratic = { 
-				popularity = 13
+				popularity = 0
 			}
 
 			fascism = {
-				popularity = 7
+				popularity = 100
 			}
 			
 			communism = {
-				popularity = 2
+				popularity = 0
 			}
 			
 			neutrality = { 
-				popularity = 78
+				popularity = 0
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = fascism
 		last_election = "1935.9.8"
 		election_frequency = 36
 		elections_allowed = no
@@ -273,9 +273,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bolesław Piasecki"
-	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "GFX_POL_boleslaw_piasecki"
+	name = "Odilo Globočnik"
+	desc = "POLITICS_ODILO_GLOBNOCNIK_DESC"
+	picture = "Portrait_POL_Odilo_Globotschnig.dds"
 	expire = "1965.1.1"
 	ideology = falangism
 	traits = {

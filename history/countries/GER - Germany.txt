@@ -96,6 +96,8 @@ add_to_faction = MOS
 add_to_faction = CAU
 add_to_faction = CRO
 add_to_faction = SER
+add_to_faction = POL
+add_to_faction = CZE
 #add_to_faction = NOR
 
 #add_to_faction = POR
@@ -115,6 +117,8 @@ puppet = GMA
 puppet = OST
 puppet = UKR
 puppet = SER
+puppet = CZE
+puppet = POL
 
 
 add_ideas = {
