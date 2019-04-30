@@ -98,6 +98,8 @@ add_to_faction = CRO
 add_to_faction = SER
 add_to_faction = POL
 add_to_faction = CZE
+add_to_faction = BEL
+add_to_faction = HOL
 #add_to_faction = NOR
 
 #add_to_faction = POR
@@ -118,6 +120,8 @@ puppet = OST
 puppet = UKR
 puppet = SER
 puppet = CZE
+puppet = BEL
+puppet = HOL
 puppet = POL
 
 
