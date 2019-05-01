@@ -5,6 +5,11 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 
+MAD = {
+	color = rgb { 80 80 80 }
+	color_ui = rgb { 76  97  121 }
+}
+
 CAU = {
 	color = rgb { 80 80 80 }
 	color_ui = rgb { 138 155 116 }

@@ -96,6 +96,7 @@ add_to_faction = MOS
 add_to_faction = CAU
 add_to_faction = CRO
 add_to_faction = SER
+add_to_faction = MAD
 add_to_faction = POL
 add_to_faction = CZE
 add_to_faction = BEL
@@ -122,6 +123,7 @@ puppet = SER
 puppet = CZE
 puppet = BEL
 puppet = HOL
+puppet = MAD
 puppet = POL
 
 
