@@ -7,12 +7,116 @@ add = 10
 tag = USA 
 } 
 } 
+#Focus for Heat Things Up
+focus = { 
+id = USA_heatthingsup
+icon = GFX_focus_attack_soviet
+x = 24
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_johnsonsadministration } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_equipment_to_stockpile= {
+ type = infantry_equipment_1 
+amount = 5000 
+producer = USA
+}
+ } 
+
+ } 
+
+#Focus for Attract German Arms Factories
+focus = { 
+id = USA_attractgermanarmsfactories
+icon = GFX_focus_generic_concessions
+x = 34
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_americanmilitarism } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+64={remove_building= { 
+type = arms_factory 
+level = 3 
+}}
+random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 3
+ add_building_construction = {
+ type = arms_factory
+ level = 3
+ instant_build = yes
+ }
+
+ set_state_flag = USA_Attract_German_Arms_Factories
+ }
+ } 
+
+ } 
+
+#Focus for Afghani Diplomacy
+focus = { 
+id = USA_afghanidiplomacy
+icon = GFX_goal_molotov_ribbentrop_pact
+x = 16
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_saudioilinterests } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+give_guarantee = AFG
+ } 
+completion_reward = { 
+add_to_faction= AFG
+ } 
+
+ } 
+
+#Focus for Infiltration of Iraq
+focus = { 
+id = USA_infiltrationofiraq
+icon = GFX_goal_generic_air_production
+x = 14
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_influenceiran } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+give_guarantee= IRQ
+ } 
+completion_reward = { 
+IRQ = {democratic_acceptance = 85}
+ } 
+
+ } 
+
 #Focus for The American Situation
 focus = { 
 id = USA_theamericansituation
 icon = GFX_goal_support_democracy
-x = 6
-y = 1
+x = 22
+y = 0
 cost = 5
 available_if_capitulated = yes 
 ai_will_do = { 
@@ -27,20 +131,576 @@ id = usatree.1
 
  } 
 
+#Focus for The American Dream
+focus = { 
+id = USA_theamericandream
+icon = GFX_focus_usa_guarantee_the_american_dream
+x = 27
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_researchgrants } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_manpower= 100000add_political_power= 100
+ } 
+
+ } 
+
+#Focus for Influence Iran
+focus = { 
+id = USA_influenceiran
+icon = GFX_goal_tfv_sever_ties_with_uk
+x = 14
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_themiddleeast } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+PER = {add_popularity= { 
+ideology = democracy
+popularity = 1.0 
+}
+}
+ } 
+
+ } 
+
+#Focus for Research Grants
+focus = { 
+id = USA_researchgrants
+icon = GFX_goal_tfv_generic_tech_sharing
+x = 27
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_stimulatetheeconomy } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_research_slot= 1
+ } 
+
+ } 
+
+#Focus for New Public Works
+focus = { 
+id = USA_newpublicworks
+icon = GFX_goal_continuous_repairments
+x = 30
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = USA_stimulatetheeconomy } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state= {
+add_building_construction = {type = infrastructurelevel = 5
+instant_build = yes}
+
+}
+ } 
+
+ } 
+
+#Focus for American Capitalism
+focus = { 
+id = USA_americancapitalism
+icon = GFX_focus_usa_reestablish_the_gold_standard
+x = 33
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_stimulatetheeconomy } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas= partial_economic_mobilisation
+ } 
+
+ } 
+
+#Focus for Stimulate The Economy
+focus = { 
+id = USA_stimulatetheeconomy
+icon = GFX_goal_generic_consumer_goods
+x = 30
+y = 2
+cost = 12
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+consumer_goods_factor = 0.05
+random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 3
+ add_building_construction = {
+ type = industrial_complex
+ level = 3
+ instant_build = yes
+ }
+
+ set_state_flag =USA_Stimulate_The_Economy
+ }
+ } 
+
+ } 
+
+#Focus for Saudi Oil Interests
+focus = { 
+id = USA_saudioilinterests
+icon = GFX_goal_tfv_strengthen_commonwealth_ties
+x = 16
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_themiddleeast } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+give_guarantee = SAU
+ } 
+completion_reward = { 
+add_political_power = 50
+ } 
+
+ } 
+
+#Focus for The Middle East
+focus = { 
+id = USA_themiddleeast
+icon = GFX_goal_generic_military_sphere
+x = 15
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_foreignpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+give_guarantee = SAU
+give_guarantee = YEM
+give_guarantee = OMA
+give_guarantee = IRQ
+ } 
+completion_reward = { 
+add_political_power = 50
+ } 
+
+ } 
+
+#Focus for NATO
+focus = { 
+id = USA_nato
+icon = GFX_focus_usa_recruit_the_free_corps
+x = 6
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_ireland } 
+prerequisite = { focus = USA_sweden } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+create_faction= 'NATO'
+add_to_faction= SWE
+add_to_faction= IRE
+add_to_faction= CAN
+add_to_faction= SAF
+ } 
+
+ } 
+
+#Focus for Sweden
+focus = { 
+id = USA_sweden
+icon = GFX_goal_molotov_ribbentrop_pact
+x = 7
+y = 5
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = USA_theeuropeanbeacons } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+give_guarantee = SWE
+ } 
+completion_reward = { 
+add_political_power = 50
+ } 
+
+ } 
+
+#Focus for The European Beacons
+focus = { 
+id = USA_theeuropeanbeacons
+icon = GFX_goal_support_democracy
+x = 6
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_germancontainment } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power = 100
+ } 
+
+ } 
+
+#Focus for Ireland
+focus = { 
+id = USA_ireland
+icon = GFX_goal_tripartite_pact
+x = 5
+y = 5
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = USA_theeuropeanbeacons } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+give_guarantee= IRE
+ } 
+completion_reward = { 
+add_political_power = 50
+ } 
+
+ } 
+
+#Focus for Sino-American Friendship Pact
+focus = { 
+id = USA_sinoamericanfriendshippact
+icon = GFX_goal_generic_military_deal
+x = 9
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_newallies } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+give_guarantee= PRC
+ } 
+completion_reward = { 
+add_political_power = 50
+ } 
+
+ } 
+
+#Focus for Sino-American Alliance
+focus = { 
+id = USA_sinoamericanalliance
+icon = GFX_focus_YUG_pan_slavic_congress
+x = 9
+y = 6
+cost = 12
+available_if_capitulated = yes 
+prerequisite = { focus = USA_sinoamericanfriendshippact } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+create_faction= 'Sino-_American_alliance'
+add_political_power = 100
+ } 
+
+ } 
+
+#Focus for The Pacific Alliance
+focus = { 
+id = USA_thepacificalliance
+icon = GFX_goal_generic_alliance
+x = 12
+y = 6
+cost = 12
+available_if_capitulated = yes 
+prerequisite = { focus = USA_defendfreeasia } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+create_faction= 'the_pacific_alliance'add_to_faction= JAPadd_to_faction= BHUadd_to_faction= SIAadd_to_faction= INSadd_to_faction= NEPadd_to_faction= RAJ
+ } 
+
+ } 
+
+#Focus for New Allies
+focus = { 
+id = USA_newallies
+icon = GFX_focus_prc_proclaim_the_peoples_republic
+x = 9
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_thepacifictheatre } 
+mutually_exclusive = { focus = USA_oldallies } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+diplomatic_relation= { 
+country = PRC 
+relation = non_aggression_pact 
+}
+ } 
+
+ } 
+
+#Focus for Old Allies
+focus = { 
+id = USA_oldallies
+icon = GFX_focus_jap_pacific_guardian
+x = 12
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_thepacifictheatre } 
+mutually_exclusive = { focus = USA_newallies } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+diplomatic_relation= { 
+country = JAP 
+relation = non_aggression_pact 
+}
+ } 
+
+ } 
+
+#Focus for The Pacific Theatre
+focus = { 
+id = USA_thepacifictheatre
+icon = GFX_focus_jap_cast_the_die
+x = 10
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = USA_foreignpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power = 50
+ } 
+
+ } 
+
+#Focus for Defend Free Asia
+focus = { 
+id = USA_defendfreeasia
+icon = GFX_goal_generic_military_sphere
+x = 12
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_oldallies } 
+ai_will_do = { 
+ factor = 1
+ } 
+available = { 
+give_guarantee=SIA
+give_guarantee=INS
+give_guarantee=RAJ
+give_guarantee=NEP
+give_guarantee=BHU
+give_guarantee=JAP
+ } 
+
+ } 
+
 #Focus for Foreign Policy
 focus = { 
 id = USA_foreignpolicy
 icon = GFX_goal_tripartite_pact
-x = 6
+x = 10
 y = 2
 cost = 5
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power= 100
+ } 
+
+ } 
+
+#Focus for German Containment
+focus = { 
+id = USA_germancontainment
+icon = GFX_goal_generic_small_arms
+x = 6
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_foreignpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power = 50
+ } 
+
+ } 
+
+#Focus for Attract British companies
+focus = { 
+id = USA_attractbritishcompanies
+icon = GFX_focus_eng_unite_the_anglosphere
+x = 32
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_civilianinvestment } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 2
+ add_building_construction = {
+ type = industrial_complex
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = USA_Attract_British_Companies
+ }
+126={remove_building= { 
+type = industrial_factory 
+level = 2 
+}}
+ } 
+
+ } 
+
+#Focus for Opening new mines
+focus = { 
+id = USA_openingnewmines
+icon = GFX_goal_generic_construction2
+x = 30
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_newpublicworks } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_resource= { 
+type = tungsten
+amount = 15
+state =375
+}
+ } 
+
+ } 
+
+#Focus for Civilian Investment
+focus = { 
+id = USA_civilianinvestment
+icon = GFX_goal_continuous_non_factory_construct
+x = 32
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_americancapitalism } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+random_owned_controlled_state381={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 2
+ add_building_construction = {
+ type = industrial_complex
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = USA_Civilian_Industry
+ }
+ } 
+
+ } 
+
+#Focus for American Militarism
+focus = { 
+id = USA_americanmilitarism
+icon = GFX_focus_secret_rearmament
+x = 34
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = USA_americancapitalism } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_manpower= 150000
+ } 
+
+ } 
+
+#Focus for Johnson's administration
+focus = { 
+id = USA_johnsonsadministration
+icon = GFX_focus_generic_strike_at_democracy3
+x = 24
+y = 3
+cost = 3
 available_if_capitulated = yes 
 prerequisite = { focus = USA_theamericansituation } 
 ai_will_do = { 
  factor = 1
  } 
 completion_reward = { 
-add_political_power= 200
+add_political_power = 25.
  } 
 
  } 
