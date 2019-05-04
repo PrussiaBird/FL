@@ -7,7 +7,7 @@ state={
 	
 	history=
 	{
-		owner = GMA
+		owner = FRF
 		add_core_of = GMA
 		add_core_of = SIE
 		victory_points = {

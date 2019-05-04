@@ -86,6 +86,20 @@ set_politics = {
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
+
+}
+
+create_faction = "North American Treaty Organisation"
+add_to_faction = USA
+add_to_faction = CAN
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = JAP
+add_to_faction = PHI
+
+
+
+
 }
 
 add_ideas = {

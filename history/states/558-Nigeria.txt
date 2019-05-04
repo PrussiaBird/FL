@@ -9,7 +9,7 @@ state={
 		rubber=2 # was: 3
 	}
 	history={
-		owner = GMA
+		owner = FRF
 		add_core_of = GMA
 		add_core_of = NGA
 		buildings = {
