@@ -21,11 +21,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/CAN/cp.dds"
 	}
 	
-	spriteType = {
-		name = "GFX_ideology_USA_democratic_group"
-		texturefile = "gfx/interface/ideologies/USA/democrats.dds"
-	}
-	
 	
 	spriteType = {
 		name = "GFX_ideology_UZB_democratic_group"
