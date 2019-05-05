@@ -1,0 +1,57 @@
+﻿capital = 405
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 51
+		}
+
+		fascism = {
+			popularity = 1
+		}
+		
+		communism = {
+			popularity = 40
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 9
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1964.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+
+
+
+
+
+
+create_country_leader = {
+
+	name = "Sharof Rashidov"
+	picture = "Portrait_UZB_Sharof_Rashidov.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+

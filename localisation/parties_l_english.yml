@@ -1,10 +1,13 @@
 ﻿l_english:
+ national_socialism:0 "national socialist"
+ national_socialism_noun:0 "national socialism"
  communism:0 "Communist"
  communism_noun:0 "Communism"
  democratic:0 "Democratic"
  democratic_noun:0 "Democracy"
  fascism:0 "Fascist"
  fascism_noun:0 "Fascism"
+ national_socialism_desc:0 "Totalitarian Regime"
  fascism_desc:0 "Totalitarian Regime"
  communism_desc:0 "Totalitarian Regime"
  democratic_desc:0 "Democratic Regime"
@@ -44,6 +47,7 @@
  centrism:1 "Centrism"
  centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
  
+ GER_national_socialism_party:0 "NSDAP" 
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
  GER_communism_party:0 "KPD"
@@ -52,14 +56,14 @@
  GER_neutrality_party_kaiserreich:0 "DNVP"
  GER_neutrality_party_kaiserreich_long:0 "Deutschnationale Volkspartei"
  
- CAU_fascism_party:0 "NSDAP"
- CAU_fascism_party:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ CAU_national_socialism_party:0 "NSDAP"
+ CAU_national_socialism_party:0 "Nationalsozialistische Deutsche Arbeiterpartei"
  
- MOS_fascism_party:0 "NSDAP"
- MOS_fascism_party:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ MOS_national_socialism_party:0 "NSDAP"
+ MOS_national_socialism_party:0 "Nationalsozialistische Deutsche Arbeiterpartei"
  
- OST_fascism_party:0 "NSDAP"
- OST_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ OST_national_socialism_party:0 "NSDAP"
+ OST_national_socialism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
  
  CRO_fascism_party:0 "Ustaša"
  CRO_fascism_party_long:0 "Ustaša – Croatian Revolutionary Movement"
